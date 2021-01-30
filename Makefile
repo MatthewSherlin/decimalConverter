@@ -7,6 +7,5 @@ run:
 	gcc -o bitCount bitCount.c
 
 clean:  
-	rm -rf *.o run
 	rm -rf *~ run
 
