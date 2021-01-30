@@ -5,10 +5,10 @@ int main(void){
 
 int integer;
 int binaryArray[255];
+int i;
 
 printf("Enter an integer: ");
 scanf("%d", &integer); 
-int i;
 
 for(i=0; integer>0; i++){
   binaryArray[i]=integer%2;
